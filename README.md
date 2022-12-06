@@ -1,5 +1,3 @@
-# aws-serverless-web-app-workshop
-This is a demo of the official aws serverless web app workshop
 # Build a serverless Web Application
 
 Services:
@@ -24,3 +22,19 @@ This tutorial is divided into five modules. Each module describes a scenario of 
 - Build a Serverless Backend (30 minutes): Build a backend process for handling requests for your web application
 - Deploy a RESTful API (15 minutes): Use Amazon API Gateway to expose the Lambda function you built in the previous module as a RESTful API
 - Terminate Resources (10 minutes): Terminate all the resources you created throughout this tutorial
+
+# Steps
+
+- make a aws account (root account)
+- make a admin account (best practice not to use root)
+- provide admin access to your admin account through the IAM service on IAM
+- generate the admin user access/secret keys
+- install aws cli
+- run 'aws configure'
+- enter the admin credentials and configure the availability zone you want to deploy your application into
+- Make a git repository
+- clone it locally
+- run 'aws s3 cp s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website ./ --recursive'
+- 
+
+
