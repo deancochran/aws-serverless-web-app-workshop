@@ -35,6 +35,11 @@ This tutorial is divided into five modules. Each module describes a scenario of 
 - Make a git repository
 - clone it locally
 - run 'aws s3 cp s3://wildrydes-us-east-1/WebApplication/1_StaticWebHosting/website ./ --recursive'
-- 
+- launch amplify console from the internet
+- opt in to host a web app from github
+- authorize amplify to access your repository
+- select the main/master branch
+- leave the default build settings
+- deploy
 
 
